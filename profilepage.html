@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-color" content="#333641">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="./profile.css">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light "
+            style="background-color: white; position: fixed; width:100%;z-index: 10">
+            <div class="container">
+                <img src="./img/Screenshot (230).png" style="width: 100px; height: 50px;">
+
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarTogglerDemo02">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0 " style="padding-left: 30px;">
+                        <li class="nav-item">
+                            <a class="nav-link " style="color: black; font-size: larger;" href="#">Home</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link  " style="color:black;font-size: larger" href="#about-section1">About
+                                Us</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link  " style="color:black;font-size: larger" href="#services">our
+                                services</a>
+                        </li>
+
+                    </ul>
+
+
+                    <h6 id="welcomUser" style="padding-top:5px;
+            padding-right: 25px;
+            color: black;"> <span style='font-size:15px ; color: black; padding-right: 5px;'
+                            class='fas'>&#xf2bd;</span>User</h6>
+
+                    <button class="btn btn-secondary bs-btn-hover-color:gray; " onclick="signout()"
+                        style="background-color: black; border-color: black">
+                        sign-out
+                    </button>
+
+                </div>
+            </div>
+        </nav>
+
+
+    </header>
+
+
+
+    <body>
+
+        <main>
+
+            <section>
+
+                <section class="vh-120" style="background-color: rgb(20, 19, 19);">
+                    <div class="container py-6 h-100 w-100">
+                        <div class="row d-flex justify-content-center align-items-center h-100">
+                            <div class="col col-lg-10 mb-4 mb-lg-0">
+                                <div class="card mb-3" style="border-radius: .5rem;">
+                                    <div class="row g-0">
+                                        <div class="col-md-12 gradient-custom text-center text-dark bg-white"
+                                            style="border-top-left-radius: .5rem; border-bottom-left-radius:;margin-bottom: 5%; ">
+                                            <img src="/img/pexels-pixabay-220453.jpg" alt="Avatar"
+                                                class="img-fluid my-5" style="width:200px " />
+                                            <h5 style=>ahmad abughaush</h5>
+                                            <i class="far fa-edit mb-5"></i>
+                                        </div>
+                                        <div class="col-md-10">
+                                            <div class="card-body p-4" >
+                                                <h4>Information</h4>
+                                                <hr class="mt-0 mb-4">
+                                                <div class="row pt-1">
+                                                    <div class="col-6 mb-3">
+                                                        <h6>full name</h6>
+                                                        <p class="text-muted">ahmad abughaush</p>
+                                                        <div class="col-20 mb-3">
+                                                            <h6>Email</h6>
+                                                            <p class="text-muted">ahmedabughoshh@gmail.com</p>
+                                                        </div>
+                                                        <div class="col-8 mb-3">
+                                                            <h6>address</h6>
+                                                            <p class="text-muted">zarqa/jordan</p>
+                                                        </div>
+                                                        <div class="col-6 mb-3">
+                                                            <h6>Phone</h6>
+                                                            <p class="text-muted">0799634896</p>
+                                                        </div>
+                                                        <div class="col-6 mb-3">
+                                                            <h6>Gender</h6>
+                                                            <p class="text-muted">male</p>
+                                                        </div>
+                                                    </div>
+                                                    <h4> your orders </h4>
+                                                    <hr class="mt-0 mb-4">
+
+                                                    <div class="row pt-1">
+                                                        <div class="col-12 mb-5  "
+                                                            style="display:flex; justify-content: flex-start; flex-direction: row ;">
+                                                            <img src="img/encoder.png" alt="contactor "
+                                                                style="max-width: 10rem; max-height:20rem; ">
+                                                            <div class="cardbody"
+                                                                style="margin-left:5%; border-radius: 5px;">
+                                                                <h6>electrical encoder</h6>
+
+                                                                <div>
+                                                                    <span style="color: green;">dilevered</span><br>
+                                                                    <span class="text-muted">18 april 2023</span><br>
+                                                                    <br>
+                                                                    <button type="submit"
+                                                                        style="padding: 5px; border-radius: 5px; background-color: black; color: white;">Re-Order</button>
+                                                                </div>
+                                                            </div>
+
+                                                        </div>
+                                                    </div>
+                                                    <div class="row pt-1">
+                                                        <div class="col-12 mb-5  "
+                                                            style="display:flex; justify-content: flex-start; flex-direction: row ;">
+                                                            <img src="img/encoder.png" alt="contactor "
+                                                                style="max-width: 10rem; max-height:20rem; ">
+                                                            <div class="cardbody"
+                                                                style="margin-left:5%; border-radius: 5px;">
+                                                                <h6>electrical encoder</h6>
+                                                                <div>
+                                                                    <span style="color: green;">in progress</span><br>
+                                                                    <span class="text-muted">18 april 2023</span><br>
+                                                                    <br>    
+                                                                    <a href="./checkout.html">
+                                                                    <button type="submit"
+                                                                        style="padding: 5px; border-radius: 5px; background-color: black; color: white;">tracking</button>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+
+                                                    <h4> offers </h4>
+                                                    <hr class="mt-0 mb-4">
+
+                                                    <div class="row pt-1">
+                                                        <div class="col-12 mb-5  "
+                                                            style="display:flex; justify-content: flex-start; flex-direction: row ;">
+                                                            <img src="img/encoder.png" alt="contactor "
+                                                                style="max-width: 10rem; max-height:20rem; ">
+                                                            <div class="cardbody"
+                                                                style="margin-left:5%; border-radius: 5px;">
+                                                                <h6>electrical encoder</h6>
+                                                                <div>
+                                                                    <span> <span style="color: red;">10% </span> off on
+                                                                        slelect item </span><br>
+                                                                    <span class="text-muted">18 april 2023</span><br>
+                                                                    <br>
+                                                                    <button type="submit"
+                                                                        style="padding: 5px; border-radius: 5px; background-color: black; color: white;">Add
+                                                                        To asket </button>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+
+                                                </div>
+                                                <div class="d-flex justify-content-start">
+                                                    <a href="#!"><i class="fab fa-facebook-f fa-lg me-3"></i></a>
+                                                    <a href="#!"><i class="fab fa-twitter fa-lg me-3"></i></a>
+                                                    <a href="#!"><i class="fab fa-instagram fa-lg"></i></a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+            </section>
+
+
+
+        </main>
+
+
+
+        <br>
+        <br>
+        <!-- footer -->
+
+        <footer class="text-center text-white" style="background-color: white">
+            <!-- Grid container -->
+            <div class="container pt-4">
+                <!-- Section: Social media -->
+                <section class="mb-4">
+
+
+                    <!-- Google -->
+                    <a class="btn btn-link btn-floating btn-lg text-dark m-1" href="mailto:amro.kh.alkhazaleh@gmail.com"
+                        role="button" data-mdb-ripple-color="dark"><i class="fab fa-google" style="color: red;"></i></a>
+
+
+                    <!-- Linkedin -->
+                    <a class="btn btn-link btn-floating btn-lg text-dark m-1" target="_blank"
+                        href="https://www.linkedin.com/in/amro-alkhazaleh-3097b9219/" role="button"
+                        data-mdb-ripple-color="dark"><i class="fab fa-linkedin" style="color: blue;"></i></a>
+                    <!-- Github -->
+                    <a class="btn btn-link btn-floating btn-lg text-dark m-1" target="_blank"
+                        href="https://github.com/Group-4-Quiz-Website/G4-Quiz-Website.git" role="button"
+                        data-mdb-ripple-color="dark"><i class="fab fa-github"></i></a>
+                </section>
+                <!-- Section: Social media -->
+            </div>
+            <!-- Grid container -->
+
+            <!-- Copyright -->
+            <div class="text-center text-dark p-3" style="background-color: (0, 0, 0, 0.2);">
+                © 2023 Copyright:made by ahmad
+
+            </div>
+            <!-- Copyright -->
+        </footer>
+
+        <!-- footer -->
+
+
+
+        <script src="./profile.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+    </body>
+
+</html>
